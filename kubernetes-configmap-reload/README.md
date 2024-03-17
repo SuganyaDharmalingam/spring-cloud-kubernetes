@@ -59,7 +59,7 @@ Build Maven Artifact:
  
 Build Docker image for Springboot Application
 --------------
-    docker build -t praveen1994dec/kubernetes-configmap-reload .
+    docker build -t suganyadharmalingam/kubernetes-configmap-reload .
   
 Docker login
 -------------
@@ -67,7 +67,7 @@ Docker login
     
 Push docker image to dockerhub
 -----------
-    docker push praveen1994dec/kubernetes-configmap-reload
+    docker push suganyadharmalingam/kubernetes-configmap-reload
     
 Deploy Spring Application:
 --------
